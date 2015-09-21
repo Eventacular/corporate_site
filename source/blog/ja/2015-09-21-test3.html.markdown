@@ -1,5 +1,5 @@
 ---
-title: テスト1
+title: テスト2
 date: 2015-09-21
 tags: example
 ---

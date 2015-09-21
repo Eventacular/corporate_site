@@ -3,6 +3,7 @@
 source 'http://rubygems.org'
 
 gem "pry"
+gem "pry-byebug"
 gem "middleman", "~> 3.3.12"
 
 # Live-reloading plugin
@@ -16,4 +17,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 gem 'middleman-aws'
 gem 'middleman-s3_sync'
 gem 'middleman-cloudfront'
-gem 'middleman-blog'
+gem 'middleman-blog', git: "https://github.com/eventacular/middleman-blog.git", :branch => 'feature/localize_tags'
